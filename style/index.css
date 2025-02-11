@@ -1,0 +1,87 @@
+/* Estilos globais */
+html {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Garante que a altura ocupe 100% da tela */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0; /* Remove a margem padrão do html */
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #1f1f1f;
+    padding: 30px;
+    width: 100%;  /* Largura flexível */
+    max-width: 400px; /* Limite máximo da largura */
+    border-radius: 10px;
+    max-height: 70vh; /* Limita a altura máxima */
+    overflow-y: auto; /* Barra de rolagem vertical dentro do body */
+    box-sizing: border-box; /* Inclui o padding nas dimensões do body */
+}
+
+
+
+/* Estilos para os links */
+a {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+a:hover {
+    background-color: rgb(218, 8, 8);
+    color: black;
+}
+
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 0.8rem;
+    color: rgb(241, 11, 11);
+}
+
+
+p {
+    font-size: 0.7rem;
+    color: rgb(52, 255, 25);
+}
+
+
+ul {
+    overflow: auto;
+    width: 250px;
+    max-height: 150px;
+}
+ul::-webkit-scrollbar {
+    width: 20px; 
+}
+ul::-webkit-scrollbar-track {
+    background-color: #444444; 
+    border-radius: 10px;
+    
+}
+ul::-webkit-scrollbar-thumb {
+    background-color: #53dd14; 
+    border-radius: 10px;
+    border: 3px solid #1f1f1f; 
+}
+li{
+    list-style: none;
+    padding: 10px;
+    
+}
