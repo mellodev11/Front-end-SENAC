@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-color: rgb(91, 88, 88);
+}
+header{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+header img{
+    height: 500px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192, 205, 205);
+    min-height: 100%;
+}
+
+
+ul,ol{
+    justify-content:space-between;
+    justify-items: flex-start;
+}
+
+footer{
+    background-color: aliceblue;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+    
+}
