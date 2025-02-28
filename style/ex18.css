@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    align-items: center; /* Garante alinhamento vertical */
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav li{
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+}
+nav li a{
+    text-decoration:none ;
+    color: white; 
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block; 
+}
+
+nav li a:hover{
+    color: rgb(81, 226, 88);
+    transition: 1s;
+}
+main{
+    background-color: rgb(62, 149, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 1000px;
+   
+}
+
+main li{
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+}
+main ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main ul li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+main ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+main ol li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main ol li p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+main ol li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
