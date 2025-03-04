@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/Front-end-SENAC/style/ex21.css">
+    <script src="/scripts/ex21.js" defer></script>
 </head>
 <body>
-    <form>
+    <form id="loginForm">
         <div class="title">
-            <h1>Login de Usuario</h1>
+            <h1>Login de Carnaval</h1>
         </div>
         <div class="forms">
-               <label for="login">login</label>
-        <input type="text" value="login">
+        <label for="login">Login</label>
+        <input type="text"  name="login" id="login" required placeholder="Login">
         <label for="senha">Senha:</label>
-        <input type="password" value="senha" >
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
         </div>
      
 
         <div class="lembrar">
-            <label for="lembrar">Lembrar-me</label>
-            <input type="checkbox">
+            <label for="lembrar">
+            <input type="checkbox" id="lembrar" name="lembrar">
+            Lembrar-me
+        </label>
         </div>
         <div class="butons">
-            <input type="submit" value="Entrar">
-            <input type="reset" value="limpar">
+            <button type="submit">Entrar</button>
+            <button type="reset">Limpar</button>
         </div>
 
         <div class="links">
-            <a href="#">Esqueceu a Senha</a>
+            <a href="#">Esqueceu a Senha?</a>
             <a href="#">Criar Conta</a>
         </div>
     </form>
