@@ -6,8 +6,14 @@ btn.addEventListener("click", ()=>{
 // e.preventDefault();
 
 let nomeDig = input.value;
+    if(nomeDig === ""){
+    
+    alert('nada digitado');
+    
+    }else{
 
-    alert(`Olá ${nomeDig}`);
+        alert(`Olá ${nomeDig}`);
+    }
 
 
 });
