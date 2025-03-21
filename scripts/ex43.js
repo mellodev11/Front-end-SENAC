@@ -13,7 +13,7 @@ let n1 = document.getElementById('num1');
            let valor3 = parseFloat(n3.value);
            let som = (valor + valor2 +valor3)/3;
 
-           resultado.innerHTML = `A média de ${valor} ${valor2} ${valor3} o resultado é : ${som}`;
+           resultado.innerHTML = `A média de ${valor} , ${valor2} , ${valor3} o resultado é : ${som}`;
 
         }
         )
