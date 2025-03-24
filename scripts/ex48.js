@@ -14,11 +14,11 @@ let n1 = document.getElementById('num1');
            if(valor === 0){
                resultado.innerHTML = `Número é 0`
                
-            }else if(valor >0 ){
-                resultado.innerHTML = `Número é positivo`
+            }else if(valor % 2 ==0 ){
+                resultado.innerHTML = `Número é par`
                 
             }else{
-                resultado.innerHTML = `Número negativo`
+                resultado.innerHTML = `Número é impar`
                 
            }
 
