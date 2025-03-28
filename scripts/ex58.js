@@ -1,6 +1,6 @@
 const form = document.getElementById('myForm');
 const btn = document.getElementById('btn');
-let demo = document.querySelector('#demo');
+const demo = document.querySelector('#demo');
 
 
 btn.addEventListener('click', (e) => {
@@ -8,7 +8,8 @@ btn.addEventListener('click', (e) => {
 
    
 
-    demo.style.fontSize = `20px`
+    demo.style.fontSize = demo.style.fontSize ===  "70px" ?  "30px" : "70px" ;
+       
        
     
 });
