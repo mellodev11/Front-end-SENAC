@@ -1,4 +1,4 @@
-/* Variáveis CSS */
+
 :root {
     --primary: #1a3e8c;
     --secondary: #d4af37;
@@ -11,7 +11,7 @@
     --info: #17a2b8;
 }
 
-/* Reset e Estilos Base */
+
 * {
     margin: 0;
     padding: 0;
@@ -93,9 +93,9 @@ img {
     margin: 10px auto;
 }
 
-/* Header */
+
 .header {
-    background-color: var(--primary);
+    background-color: var(--info);
     color: white;
     padding: 15px 0;
     position: fixed;
@@ -142,7 +142,7 @@ img {
     cursor: pointer;
 }
 
-/* Hero Section */
+
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('stadium.jpg');
     background-size: cover;
@@ -311,7 +311,7 @@ img {
 
 /* Footer */
 .footer {
-    background-color: var(--dark);
+    background-color: var(--info);
     color: white;
     padding: 50px 0 20px;
 }
